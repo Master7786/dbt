@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: data-terraform-338612
+    schema: trips_data_all
+
+    tables:
+      - name: green_external
+      - name: yellow_external
